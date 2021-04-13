@@ -5,34 +5,66 @@
         <meta charset = UTF-8>
         <meta name="Author" content="Jobin Joyson">
         <title>Jobin Joyson | Projects</title>
-        <meta name ="description" content="Personal projects.">
+        <meta name ="description" content="Learn about Jobin's professional background.">
         <link rel="stylesheet" href="style.css"/>
     </head>
 
     <body>
         <header class="Top">
-            <h1>
+            <h1 class="Name">
                 Projects
             </h1>
-            <nav>
+            <nav class="sections">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/jobin-joyson-99982717b/">Linkedin</a></li>
-                    <li><a href="http://www.github.com/JJoyson1">Github</a></li>
-                    <li><a href = "Resume-421.pdf">Resume</a></li>
-                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "index.html" target="_blank">Home</a></li>
+                    <li><a href = "Resume-421.pdf" download="Jobin's_Resume">Resume</a></li>
+                    <li>Contact: <a href="mailto:jjoyson1@hawk.iit.edu">jjoyson1@hawk.iit.edu</a></li>
                 </ul>
             </nav>
         </header>
-        <h2>Checkers Algorithm (September 2018) - Java</h2>
-            <ul>
-                <li>Collaborated in a group to program an algorithm that strategizes the best moves for a game of checkers.</li>
-                <li>Competed amongst other groups through checkers matches and won second place.</li>
-                <li>Practiced dynamic programming and improved teamwork and communication skills.</li>
-            </ul>
-        <h2>Parking Lot Directory (October 2020) - SQL, Java</h2>
-            <ul>
-                <li>Designed and implemented a parking lot application that allows users to register and reserve parking spots.</li>
-                <li>Learned and understood database management and security practices of a Database Administrator.</li>
-            </ul>
+        
+        <section class="description sizing">
+        <img src="images/checkers.png" class="pic">
+        <h2 class="title">Checkers Algorithm</h2>
+        <p class="paragraph">
+            Now I know I said I am very much interested in chess, buts checkers isn't too far off. It's got pieces, a board, and strategy.
+            This project was the first one I have ever worked on, which means it was a hard one aswell. To be honest, looking back it was
+            not too hard, we just had to make one function, everything else was done for us. We had to work on the strategy algorithm function. This 
+            function is supposed to determine the best next move for the player. At first we had trouble coming up with a consistent strategy, but
+            we eventually landed on one that awards points based on good moves. Better moves means higher points. Making it go for higher ponints
+            would make it choose the best moves. We also had to consider when to not choose the best move. For example if promoting a piece to king
+            would give me 5 points but if that gives my opponent a better position, it would be better to wait on that promotion. We competed with others
+            who had the same task and ended with second place with our strategy. Overall it was a fun introductory experience to programming
+            and left me with desire to learn more. 
+        </p>
+
+        <img src="images/car.png" class="pic">
+        <h2 class="title">Praking Lot Directory</h2>
+        <p class="paragraph">
+           For this project we had to design a parking lot web app that keeps track of those who have registered and reserved parking spots.
+           This one was fun at first mainly because of the PostgreSQL database language we used to make the different directories. Learning 
+           the relational algebra for SQL was tough but I enjoyed every moment of it. It allows us to theorize the queries we had to make
+           in PostgreSQL. As we got to making the web application it got annoying to make everything link and work together. Despite that, this
+           helped me learn and understand database management and the overall security practices of a Database Administrator.
+        </p>
+        </section>
+        
+        <footer class="bottom_border">
+            <div class="box box_size" style="background-color: #7180AC;">
+                <h1 class="title_footer">Jobin Joyson</h1>
+                <ul class="sections footer_allign">
+                    <li>
+                        <a href="https://www.linkedin.com/in/jobin-joyson-99982717b/" target="_blank">
+                        <img src="images/linkedin.png" class="square">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.github.com/JJoyson1" target="_blank">
+                        <img src="images/github.png" class="rectangle">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>
